@@ -1,1 +1,1 @@
-printf("%d,n,%s,is positive\n")
+printf("%d,n,is positive\n")
