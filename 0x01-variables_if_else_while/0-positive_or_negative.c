@@ -1,6 +1,6 @@
 if (n>0)
-        printf("%d,n,is positive\n";
+        printf("%d:,n, is positive\n";
 else if (n<0)
-        printf("%d,n,is negative\n";
+        printf("%d:,n, is negative\n";
 else
-        printf("%d,n,is 0\n";
+        printf("%d:,n, is zero\n";
