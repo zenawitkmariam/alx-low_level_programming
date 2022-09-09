@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	sizeOf();
+	printf(sizeOf());
 	return (0);
 }
