@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** main - entry point */
-
-/** Description: prints  if a number is positive or negative.*/
+/** main - entry point
+*
+* Description: prints  if a number is positive or negative.
+* Description: using the main function
+* this program prints "Programming is like building a multilingual puzzle
+* Return: 0
+*/
 
 int main(void)
 {
