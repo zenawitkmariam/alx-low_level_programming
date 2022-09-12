@@ -2,15 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - start
- *Description: displays number catgory.
- *Return: 0
+ * main - print the string in the put function
+ * Description: using the main function
+ * this program prints number category
+ * Return: 0
  */
+
 int main(void)
 {
 	int n;
-	
-	srand(time(0));
+	 
+	strand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
