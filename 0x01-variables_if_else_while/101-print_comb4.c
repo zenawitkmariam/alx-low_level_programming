@@ -1,23 +1,34 @@
 #include <stdio.h>
-#include <unistd.h>
-/** 
-* main - print the string in the put function
-* Description: using the main function
-* this program prints "Programming is like building a multilingual puzzle
-* Return: 0
-*/
+
+/**
+ * main - Prints 3 combination of numbers
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-	int i;
-	
-	for (i = '0'; i <= '9' ; i++)
+	int c, i, k;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-	putchar(i);
-	if (i != '9')
-	{
-		putchar(',');
-		putchar(' ');
-	}
+		for (i = '0'; i <= '9'; i++)
+		{
+			for (k = '0'; k <= '9'; k++)
+			{
+				if (c < i && i < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(k);
+
+					if (c != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
