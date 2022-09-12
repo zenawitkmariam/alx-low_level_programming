@@ -1,47 +1,44 @@
 #include <stdio.h>
-2
 #include <unistd.h>
-3
-/** 
-4
-* main - print the string in the put function
-5
-* Description: using the main function
-6
-* this program prints "Programming is like building a multilingual puzzle
-7
-* Return: 0
-8
-*/
-9
+/**
+ * main - Entry point
+ * Description: prints all possible combination of 2-digit numbers
+ * Return: Always 0 (success)
+ */
 int main(void)
-10
 {
-11
-        int i;
-12
-        
-13
-        for (i = '0'; i <= '9' ; i++)
-14
-        {
-15
-        putchar(i);
-16
-        if (i != '9')
-17
-        {
-18
-                putchar(',');
-19
-                putchar(' ');
-20
-        }
-21
-        }
-22
-        putchar('\n');
-23
-        return (0);
-24
+	int c, i, k, j;
+
+	for (c = 48; c <= 57; c++)
+	{
+		for (i = 48; i <= 57; i++)
+		{
+			for (k = 48; k <= 57; k++)
+			{
+				for (j = 48; j <= 57; j++)
+				{
+				if (((k + j) > (c + i) &&  k >= c) || c < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(' ');
+					putchar(k);
+					putchar(j);
+
+					if (c + i + k + j == 227 && c == 57)
+					{
+					break;
+					}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
+				}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
