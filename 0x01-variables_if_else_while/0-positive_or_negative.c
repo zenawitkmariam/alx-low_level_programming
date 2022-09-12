@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - start
- * Description: displays number catgory.
- * Return: 0
- */
+* main - start
+* Description: displays number catgory.
+* Return: 0
+*/
 int main(void)
 {
 	int n;
