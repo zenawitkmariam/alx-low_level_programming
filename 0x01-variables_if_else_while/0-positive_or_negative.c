@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
- * Description: prints  if a number is positive or negative.
+ * main - start
+ * Description: displays number catgory.
  * Return: 0
  */
 int main(void)
