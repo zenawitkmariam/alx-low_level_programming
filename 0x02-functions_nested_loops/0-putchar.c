@@ -1,4 +1,4 @@
-#inclide <stdin.io>
+#inclide <main.h>
 
 /**
  * main: here is the entry point
@@ -9,6 +9,6 @@
  
 int main (void)
 {
-        printf(_putchar());
+        _putchar("\n");
         return (0);
 }
