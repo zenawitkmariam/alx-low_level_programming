@@ -1,14 +1,19 @@
-#inclide <main.h>
+#include "main.h"
 
 /**
- * main: here is the entry point
- * description: print _putchar()
- * doc: betty-doc
- * return: 0
+ * print_alphabet - Entry point
+ * Description: a function that prints the alphabet,
+ * in lowecase followed by a new line
+ * Return: void
  */
- 
-int main (void)
+void print_alphabet(void)
 {
-        _putchar("\n");
-        return (0);
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
