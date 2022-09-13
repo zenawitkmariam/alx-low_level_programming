@@ -1,19 +1,19 @@
 #include "main.h"
-
 /**
- * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
- * in lowecase followed by a new line
- * Return: void
+ * main - Prints _putchar as a message.
+ *
+ * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	char letter = 'a';
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, sz;
 
-	while (letter <= 'z')
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(str[count]);
 	}
 	_putchar('\n');
+	return (0);
 }
