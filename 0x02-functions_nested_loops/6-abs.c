@@ -1,14 +1,24 @@
-#inclide <main.h>
+#include "main.h"
 
 /**
- * main: here is the entry point
- * description: print _putchar()
- * doc: betty-doc
- * return: 0
+ * _abs - Entry point
+ * @n: n is an integer
+ * Description: prints the absolute value of an integer
+ * Return: int
  */
- 
-int main (void)
+
+int _abs(int n)
 {
-        _putchar("\n");
-        return (0);
+	if (n > 0)
+	{
+		return (n);
+	}
+	else if (n < 0)
+	{
+		return (-n);
+	}
+	else
+	{
+		return (n);
+	}
 }
