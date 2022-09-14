@@ -1,14 +1,18 @@
-#inclide <main.h>
+#include "main.h"
 
 /**
- * main: here is the entry point
- * description: print _putchar()
- * doc: betty-doc
- * return: 0
+ * add - adds two integers
+ * @n1: integer 1
+ * @n2: integer 2
+ * Description: give two integers, returns sum
+ * Return: sum
  */
- 
-int main (void)
+
+int add(int n1, int n2)
 {
-        _putchar("\n");
-        return (0);
+	int sum;
+
+	sum = n1 + n2;
+
+	return (sum);
 }
