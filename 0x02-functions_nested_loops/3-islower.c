@@ -1,14 +1,22 @@
-#inclide <main.h>
+#include "main.h"
 
 /**
- * main: here is the entry point
- * description: print _putchar()
- * doc: betty-doc
- * return: 0
+ * _islower - Entry point
+ * Description: checks is a character is lowercase
+ * @c: the integer value it receives
+ * Return: 1 if true. 0 if false.
  */
- 
-int main (void)
+int _islower(int c)
 {
-        _putchar("\n");
-        return (0);
+int i = 'a';
+
+for (i = 'a'; i <= 'z'; i++)
+{
+/* refer int c*/
+if (c == i)
+{
+return (1);
+}
+}
+return (0);
 }

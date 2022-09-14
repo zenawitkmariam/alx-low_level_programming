@@ -1,14 +1,24 @@
-#inclide <main.h>
+#include "main.h"
 
 /**
- * main: here is the entry point
- * description: print _putchar()
- * doc: betty-doc
- * return: 0
+ * print_alphabet_x10 - Make alphabet x10 times
+ *
+ * Return: void
  */
- 
-int main (void)
+void print_alphabet_x10(void)
 {
-        _putchar("\n");
-        return (0);
+	char c;
+	int i = 0;
+
+	while (i <= 9)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+
+		_putchar('\n');
+
+		i++;
+	}
 }

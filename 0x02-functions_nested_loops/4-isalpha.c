@@ -1,14 +1,24 @@
-#inclide <main.h>
+#include "main.h"
 
 /**
- * main: here is the entry point
- * description: print _putchar()
- * doc: betty-doc
- * return: 0
+ * _isalpha - Entry point
+ * @c: the integer value it receives
+ * Description: checks if alphabet
+ * Return: 1 if true. 0 if false
  */
- 
-int main (void)
+
+int _isalpha(int c)
 {
-        _putchar("\n");
-        return (0);
+	if (c >= 'a' && c <= 'z')
+	{
+	return (1);
+	}
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
