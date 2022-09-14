@@ -1,19 +1,31 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * main - Prints _putchar as a message.
+ * main - Prints the first 52 fibonacci numbers
  *
- * Return: Always 0 (Success)
+ * Return: Nothing!
  */
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, si;
+	int i = 0;
+	long j = 1, k = 2;
 
-	si = sizeof(str) / sizeof(int);
-	for (count = 0; count < si; count++)
+	while (i < 50)
 	{
-		_putchar(str[count]);
+		if (i == 0)
+			printf("%ld", j);
+		else if (i == 1)
+			printf(", %ld", k);
+		else
+		{
+			k += j;
+			j = k - j;
+			printf(", %ld", k);
+		}
+
+		++i;
 	}
-	_putchar('\n');
+
+	printf("\n");
 	return (0);
 }
