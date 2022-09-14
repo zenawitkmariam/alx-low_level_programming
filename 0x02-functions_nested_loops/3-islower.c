@@ -10,7 +10,7 @@ int _islower(int c)
         int i;
         char alpha[25] = "abcdefghijklmnopqrstuvwxyz";
 
-        for (i = 1; i.length <= 25; i++)
+        for (i = 1; i <= 25; i++)
         {
                 if (c == alpha[i])
                 {
