@@ -2,6 +2,8 @@
 
 /**
  * add : return sum of two parameters given
+ * @n: first val
+ * @m: second val
  * Description : add two integers
  * Return : sum
  */
