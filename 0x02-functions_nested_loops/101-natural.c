@@ -1,19 +1,23 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * main - Prints _putchar as a message.
- *
- * Return: Always 0 (Success)
+ * main - Prints the sum of all multiples of 3 or 5 up to 102
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, si;
+	int i, z = 0;
 
-	si = sizeof(str) / sizeof(int);
-	for (count = 0; count < si; count++)
+	while (i < 1024)
 	{
-		_putchar(str[count]);
+		if ((i % 3 == 0) || (i % 5 == 0))
+		{
+			z += i;
+		}
+
+		i++;
 	}
-	_putchar('\n');
+
+	printf("%d\n", z);
 	return (0);
 }
