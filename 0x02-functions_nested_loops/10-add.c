@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 /**
  * main - Prints _putchar as a message.
  *
@@ -16,4 +17,22 @@ int main(void)
 	}
 	_putchar('\n');
 	return (0);
+=======
+
+/**
+ * add - adds two integers
+ * @n1: integer 1
+ * @n2: integer 2
+ * Description: give two integers, returns sum
+ * Return: sum
+ */
+
+int add(int n1, int n2)
+{
+	int sum;
+
+	sum = n1 + n2;
+
+	return (sum);
+>>>>>>> 3fd1ecf0d04b7660d20a9589f7796e700944d966
 }
