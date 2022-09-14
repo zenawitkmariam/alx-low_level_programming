@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * add : return sum of two parameters given
- * @n: first val
- * @m: second val
- * Description : add two integers
- * Return : sum
+ * add - adds two integers
+ * @n1: integer 1
+ * @n2: integer 2
+ * Description: give two integers, returns sum
+ * Return: sum
  */
 
 int add(int n, int m)
