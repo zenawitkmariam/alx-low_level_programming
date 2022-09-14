@@ -1,4 +1,4 @@
-s #include "main.h"
+#include "main.h"
 /*
 * main : return sum of two parameters given
 * Description : add two integers
@@ -7,7 +7,7 @@ s #include "main.h"
 int add(int n, int m)
 {
 	int sum=0;
-	sum= n + m;
+	sum = n + m;
 	
 	return (sum);
 }
