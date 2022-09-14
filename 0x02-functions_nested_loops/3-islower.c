@@ -3,16 +3,16 @@
 /**
  * _islower - Entry point
  * Description: checks is a character is lowercase
+ * @c: the integer value it receives
  * Return: 1 if true. 0 if false.
  */
 int _islower(int c)
 {
-        int i;
-        char alpha[25] = "abcdefghijklmnopqrstuvwxyz";
+        int i = 'a';
 
-        for (i = 1; i <= 25; i++)
+        for (i = 'a'; i <= 'z'; i++)
         {
-                if (c == alpha[i])
+                if (c == i)
                 {
                         return (1);
                 }
