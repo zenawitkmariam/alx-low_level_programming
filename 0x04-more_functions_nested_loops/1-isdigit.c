@@ -8,9 +8,9 @@
 
 int _isdigit(int d)
 {
- if (d >= 0 && d <= 9)
- {
- return (1);
- }
- return (0);
+	if(d>=0 && d<=9)
+	{
+		return(1);
+	}
+	return(0);
 }
