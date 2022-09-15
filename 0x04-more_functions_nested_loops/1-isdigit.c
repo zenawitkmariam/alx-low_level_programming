@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _isdigit- tells weather the variable holds digit or not.
-* @d : is the degit to be checked
-* Return : 1 if degit 0 if not
-*/
+ * _isdigit - checks if a character is digit
+ * @c: carrier variable
+ * Return: 1 if true, 0 if false
+ */
 
 int _isdigit(int c)
 {
