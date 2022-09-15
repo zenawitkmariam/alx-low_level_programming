@@ -2,13 +2,13 @@
 
 /**
 * _isdigit- tells weather the variable holds digit or not.
-* @l : is the degit to be checked
+* @d : is the degit to be checked
 * Return : 1 if degit 0 if not
 */
 
-int _isdigit(int c)
+int _isdigit(int d)
 {
-	if (c >= 65 && c <= 90)
+	if (d >= 0 && d <= 9)
 	{
 		return (1);
 	}
