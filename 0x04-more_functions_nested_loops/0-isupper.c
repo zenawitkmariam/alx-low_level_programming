@@ -9,7 +9,7 @@
 int _isupper(int l)
 {
  int i;
- i=119;
+ 
  if(l>=65 && l<=90)
  {
  return (1);
