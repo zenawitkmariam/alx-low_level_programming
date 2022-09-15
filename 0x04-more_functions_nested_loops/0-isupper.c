@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _isupper- tells weather the letter is uppercase or lowercase.
-* @l : is the letter to be checked
-* Return : 1 if uppercase 0 if not
-*/
+ * _isupper - checks is a character is uppercase
+ * @c: carrier integer variable
+ * Return: 1 if true, 0 if false
+ */
 
 int _isupper(int c)
 {
