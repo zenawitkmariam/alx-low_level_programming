@@ -6,13 +6,11 @@
 * Return : 1 if uppercase 0 if not
 */
 
-int _isupper(int l)
+int _isupper(int c)
 {
- int i;
- 
- if(l>=65 && l<=90)
- {
- return (1);
- }
- return (0);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	return (0);
 }
