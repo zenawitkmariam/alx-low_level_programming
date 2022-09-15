@@ -6,15 +6,13 @@
 * Return : 1 if uppercase 0 if not
 */
 
-int isupper(char l)
+int isupper(int l)
 {
- int i = d;
+ int i;
+ i=119;
  if(l>=65 && l<=90)
  {
  return (1);
  }
- else
- {
  return (0);
- }
 }
