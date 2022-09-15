@@ -5,13 +5,15 @@
 * 
 * Return : nothing
 */
+
 void print_numbers(void)
 {
- char i = '0';
-  
- for(i=0, i<10,i++)
- { 
-  _putchar(i);  
- }
- _putchar(\n);
+	char i = '0';
+
+	while (i <= '9')
+	{
+		_putchar(i);
+		i++;
+	}
+	_putchar('\n');
 }
