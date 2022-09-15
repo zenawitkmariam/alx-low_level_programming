@@ -9,6 +9,6 @@
 
 int main(void)
 {
-  _isdigit(3);
-  return (0);
+ _isdigit(3);
+ return (0);
 }
