@@ -9,6 +9,6 @@
 
 int main(void)
 {
-  _isdigit(int d);
+  _isdigit();
   return (0);
 }
